@@ -4,7 +4,7 @@
 If you are using the Akamai Cloud to host your workload on virtualized instances we call Linodes, most likely you are aware of some the tools the platform offers. One of which is the [Linode CLI ](https://www.linode.com/products/cli/).
 
 
-The purpose of this extremely small repo is to solve (more of a stop gap) the limitations of the API when it comes to [Linode VLANs](https://www.linode.com/products/vlan/). The product itself is great, however the API endoint is only limited to viewing VLANs on the account. The [vlans.py](https://github.com/n0vabyte/LinodeVlanViewer/scripts/vlans.py) script will allow you to iterate through the instances that are part of a VLAN to get their respective IPAM address.
+The purpose of this extremely small repo is to solve (more of a stop gap) the limitations of the API when it comes to [Linode VLANs](https://www.linode.com/products/vlan/). The product itself is great, however the API endoint is only limited to viewing VLANs on the account. The [vlans.py](https://github.com/n0vabyte/LinodeVlanViewer/blob/main/script/vlans.py) script will allow you to iterate through the instances that are part of a VLAN to get their respective IPAM address.
 
 Curretly, the CLI will only allow you to view the LinodeIDs but keeps you guessing on what the IPAM addresses are:
 ![](/images/vlanls.png)
