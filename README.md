@@ -70,4 +70,4 @@ As with everything, there are limitations. The performance of the script varies 
 
 **For *every* Linode**. So basic math: If we have a VLAN with 100 Linodes and it takes .500 seconds to get and sort the data from both endpoints..You get it the point :) Hence the script is network-bound and will vary in response time.
 
-The reason why we need to hit both endpoints is because the Linode label and ID are in the first endpoint and the VLAN/IPMA information is stored in the configuration profile for the Linode.
+The reason why we need to hit both endpoints is because the Linode label and ID are in the first endpoint and the VLAN/IPAM information is stored in the configuration profile for the Linode.
